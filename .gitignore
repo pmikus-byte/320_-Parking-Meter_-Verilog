@@ -1,0 +1,16 @@
+# 
+vivado/
+*.cache/
+*.runs/
+*.sim/
+*.gen/
+*.hw/
+*.ip_user_files/
+.Xil/
+*.jou
+*.log
+*.str
+*.wdb
+*.pb
+webtalk*
+vivado*.backup.*

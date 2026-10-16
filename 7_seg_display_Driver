@@ -1,0 +1,22 @@
+'timescale 1ns/1ps
+
+module seven_seg_display_driver #(
+    parameter REFRESH_COUNT = 25_000, 
+    parameter FLASH_COUNT = 50_000_000
+
+)
+( 
+    input wire clk, 
+    input wire rst, 
+    input wire [3:0] Hundreds,
+    input wire [3:0] Ten,
+    input wire [3:0] One,
+    output reg [6:0] seg_out,
+    output wire dp, 
+    output reg [7:0] an
+);
+
+assign dp = 1'b1; 
+
+
+    //TEST
